@@ -20,8 +20,14 @@ When printed, sheets are set into two columns, which works well for most Kill Te
     - [Kill Team](killteam-battlescribe.css)
     - [40,000](40k-battlescribe.css)
 2. Use Battlescribe to generate an HTML file and open in a text editor
-3. Copy the full text of the CSS
-4. Paste it into the HTML file, replacing everything between and *including* the `<style>` and `</style>` tags
+3. Copy the CSS you wish to use into the same folder as your html file.
+4. Paste the following into the HTML file, replacing everything between and *including* the `<style>` and `</style>` tags:
+For 40k copy:
+     <link rel="stylesheet" href="40k-battlescribe.css">
+     
+For KillTeam copy:
+     <link rel="stylesheet" href="killteam-battlescribe.css">
+
 5. Save the HTML and open it in a web browser
 6. To print, please use Chrome or Firefox (Safari won't print with the print viewm for some reason). Ensure that the Background Graphics option is checked in the print dialog
 
