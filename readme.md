@@ -22,6 +22,7 @@ When printed, sheets are set into two columns, which works well for most Kill Te
 2. Use Battlescribe to generate an HTML file and open in a text editor
 3. Copy the CSS you wish to use into the same folder as your html file.
 4. Paste the following into the HTML file, replacing everything between and *including* the `<style>` and `</style>` tags:
+
 For 40k copy:
      `<link rel="stylesheet" href="40k-battlescribe.css">`
      
