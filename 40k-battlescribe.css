@@ -6,8 +6,12 @@
   
   @media only print
   {
-  	div.battlescribe { columns: 200px 2; }
-  	li.rootselection > h4 { font-size: 12px; }
+  	div.battlescribe { columns: 200px 1; }
+  	li.rootselection > h4 
+    { 
+      font-size: 12px; 
+      page-break-before: auto;
+    }
   	div.battlescribe { font-size: 10px; }
   	div.battlescribe p { font-size: 10px; }
   	div.battlescribe table { font-size: 10px; }
