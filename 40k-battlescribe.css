@@ -1,5 +1,3 @@
-<style>
-
   /* 40K stylesheet */
   
   @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400&family=Oswald:wght@700&display=swap');
@@ -346,5 +344,3 @@ li.force > p.rule-names {
   }
   
   br + p { display: none; }
-
-</style>
