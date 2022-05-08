@@ -10,7 +10,7 @@ Kill Team sheets look like this:
 
 ![](pics/40k_screen.png)
 
-When printed, sheets are set into two columns, which works well for most Kill Team rosters but not so well for 40K because units feature more information. Printed Kill Team sheets look like this:
+When printed, KillTeam sheets are set into two columns, which works well for most Kill Team rosters but not so well for 40K because units feature more information, thus 40K sheets are single column. Printed Kill Team sheets look like this:
 
 ![](pics/kt_print.jpg)
 
@@ -20,7 +20,7 @@ When printed, sheets are set into two columns, which works well for most Kill Te
     - [Kill Team](killteam-battlescribe.css)
     - [40,000](40k-battlescribe.css)
 2. Use Battlescribe to generate an HTML file and open in a text editor
-3. Copy the CSS you wish to use into the same folder as your html file.
+3. Copy the CSS file you wish to use into the same folder as your html file.
 4. Paste the following into the HTML file, replacing everything between and *including* the `<style>` and `</style>` tags:
 
 For 40k copy:
@@ -37,8 +37,11 @@ OR! For Kill Team you can use a web interface built by [/u/czi](https://www.redd
 ## Notes
 
 - I'm neither a designer nor a web developer, so I'm making no claims for my CSS skills. The 40K CSS is relatively untested, so I welcome feedback to improve it.
-- The CSS displays your roster in two ways. On your screen it should appear as a single column and be fairly clear to reference on a tablet during a game. Print it out and it switches to a two-column view with smaller text.
+- The CSS displays your roster in two ways. On your screen it should appear as a single column and be fairly clear to reference on a tablet during a game. Print it out and it switches to a two-column view with smaller text (except for 40K lists).
 - There are page break rules to prevent entries from splitting over columns and pages. I optimised it for keeping specialists, leaders/commanders/fire teams on single pages. The first page will be almost empty, and models with long lists of rules might break over pages and generally look terrible, but I've done what I can to make it practical.
 
 
 Please feel free to use as-is and, of course, adapt/amend to your heart's content. Share any improvements with the community; I'll do my best to add any changes I feel improve the stylesheet. Hope it's useful!
+
+Original by: r0tational
+Tweaked by: DenKomm
