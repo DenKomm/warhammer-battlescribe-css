@@ -4,7 +4,7 @@
 
   @media only print
   {
-  	div.battlescribe { columns: 200px 1; }
+  	div.battlescribe { columns: 200px 2; }
   	li.rootselection > h4 
     { 
       font-size: 12px; 
